@@ -14,7 +14,7 @@
 #include "p3utils.h"
 #include "rootdir.h"
 
-int main4(int argc, char **argv) {
+int main(int argc, char **argv) {
     FILE *fp, *inf;
     int infsize, nextRdEntry, nextFtEntry;
     char infname[128];

@@ -12,7 +12,7 @@
 #include "fattable.h"
 #include "rootdir.h"
 
-int main1(int argc, char** argv) {
+int main(int argc, char** argv) {
     FILE *fp;
     char tmp[128];
     int numOfBytesPerSector;

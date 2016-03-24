@@ -10,7 +10,7 @@
 
 #include "rootdir.h"
 
-int main3(int argc, char **argv) {
+int main(int argc, char **argv) {
     FILE *fp, *outf;
     int size, cluster;
     if (argc < 3) {
